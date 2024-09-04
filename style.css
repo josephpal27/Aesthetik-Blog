@@ -353,7 +353,7 @@ footer .footer .foot-left .foot-card {
   background-color: #1f232f;
   position: absolute;
   bottom: 2rem;
-  width: 49%;
+  width: 51%;
   border-radius: 0.8rem;
   border: none;
   padding: 1.5rem 2rem 2.5rem 2rem;
@@ -367,10 +367,15 @@ footer .footer .foot-left .foot-card p {
 footer .footer .foot-left .foot-card .foot-address {
   margin-top: 2rem;
 }
+footer .footer .foot-left .foot-card .foot-address .address-row {
+  display: flex;
+  margin-top: 0.6rem;
+}
 footer .footer .foot-left .foot-card .foot-address p {
   margin: 0;
-  margin-top: 0.5rem;
   color: #fff;
+  font-size: 0.9rem;
+  width: 85%;
 }
 footer .footer .foot-left .foot-card .foot-address a {
   text-decoration: none;
@@ -378,7 +383,9 @@ footer .footer .foot-left .foot-card .foot-address a {
 }
 footer .footer .foot-left .foot-card .foot-address i {
   color: #f15c06;
-  width: 1.7rem;
+  width: 12%;
+  font-size: 1.1rem;
+  margin-top: 0.1rem;
 }
 footer .footer .footer-list p {
   color: #fff;
